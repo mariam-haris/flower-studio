@@ -1,0 +1,558 @@
+/*---Reset----*/
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+ul{
+    padding: 0;
+    list-style-position: inside;
+}
+li{
+    font-family: lrFont;
+    color: rgb(141, 139, 139);
+}
+
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+/*--Layout---*/
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.container1 {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.container2{
+    width: 49%;
+    margin: 0 auto;
+    padding-top: 88px;
+}
+.container4{
+    width: 66%;
+    margin: 0 auto;
+}
+.text{
+    text-align: center;
+    display: inline-block;
+}
+.table{
+     display: table;
+     width: 100%;
+     font-size:0;
+}   
+.table-cell{
+    display: table-cell;
+     vertical-align: middle;
+}
+.table-row{
+     display: table-row;
+}
+.btn{
+     background-color: #fff;
+     box-shadow:0px 4px 4px 0px #c0c0c0;
+     border: 0;
+     width: 130px;
+     height: 35px;
+}
+.container3{
+    width:50%;
+    margin: 0 auto;
+}
+h6:after{
+	content: "";
+	background-color: #000000;
+	width: 36px;
+	height: 1px;
+	text-align: left;
+	display: block;
+    margin: 2% 0;
+    margin-bottom: 22px;
+}
+.location{
+    font-size: 0;
+}
+.incenter{
+    margin-left: 313PX;
+}
+.footer .container .table .table-cell h6:after {
+    background-color: #ffeb00;
+    width: 36px;
+    text-align: left;
+}
+.whatwe .container2 h6:after {
+    content: "";
+	background-color: #000000;
+	width: 36px;
+	height: 1px;
+	text-align: left;
+	display: block;
+    margin: 2% 0;
+    margin-bottom: 22px;
+}
+h2:after{
+	content: "";
+	background-color: #fcca03;
+	width: 35px;
+	height: 1px;
+	text-align: left;
+	display: block;
+    margin: 2% 0;
+}
+.whatwe .ttile .incenter1{
+    margin-left: 273PX;
+}
+/*----header-----*/
+.header
+{
+    background-image: url("../imges/o_n.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    margin-bottom:122px;
+}
+.header2{
+    margin-left: 200px;
+}
+.header .table {
+    height: 400px;
+}
+ .header .content{
+    width: 44%;
+    text-align: center;
+    padding-top: 90px;
+}
+.header i{
+    float: right;
+   padding-right: 15px;
+    padding-top: 20px;
+}
+/*------whatwe------*/
+.whatwe{
+    margin-bottom: 50px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.whatwe .title{
+    margin-bottom: 50px;
+}
+.whatwe .title .p{
+    width: 50%;
+    margin: 0 auto;
+}
+/*------6 groups-----*/
+.space{
+    margin-bottom: 80px;
+}
+.space .text1{
+    text-align: left;
+    display: inline-block;
+    width: 84%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.back{
+    background-image: url("../imges/item1-icon.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    display: inline-block;
+}
+.back2{
+    background-image: url("../imges/item2-icon.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.back3{
+    background-image: url("../imges/item3-icon.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.back4{
+    background-image: url("../imges/item4-icon.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.back5{
+    background-image: url("../imges/item5-icon.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.back6{
+    background-image: url("../imges/item6-icon.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+/*------aboutus------*/
+.aboutus{
+    background-image: url("../imges/pic.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:350 px;
+    width: 100%;
+    margin-bottom: 80px; 
+    background-attachment: fixed; 
+}
+.aboutus .table{
+    height:400px;
+}
+.aboutus .content{
+    width:151%;   
+}
+.aboutus .imge{
+    padding-top: 16px;
+}
+/*------fonts in html------*/
+.p1 {
+    font-family: fiFont;
+    font-size: 25px;
+    margin: auto;
+}
+.p2 {
+    font-family: fiFont;
+    font-size: 20px;
+    margin: auto;
+}
+.flower{
+    font-family: sxFont;
+    font-size: 73px;
+}
+.flower2{
+    font-family: sxFont;
+    font-size:30 px;
+}
+.create{
+    font-family: sxFont;
+}
+.sed{
+    font-family: sxFont;
+    color: rgb(122, 122, 122);
+    font-size: 14PX;
+}
+.text{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: foFont;
+}
+.opacity2{
+    position: relative;
+}
+.opacity2 :hover .icon2{
+    opacity: 1;
+}
+.opacity2 :hover img{
+    opacity: 0.3;
+}
+.width2{
+    width:100%;
+}
+.opacity2 .width{
+    opacity: .5;
+    backface-visibility: hidden;
+    height: auto;
+    display: block;
+}
+.icon2{
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.on{
+    font-family: lrFont;
+    color: rgb(46, 45, 45);
+}
+.ralewaybold{
+    font-size: 14px;
+    font-family: sxFont;
+}
+/*----images----*/
+.img{
+    vertical-align: top;
+}
+.color{
+    background-color:#f9bec7;
+    height:100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.color h5{
+    font-family: sxFont;
+}
+.width9{
+    width: 9%;
+}
+.color{
+	background-color: #f8aecd;
+	height: 110px;
+}
+.color .table{
+	height: 110px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.color .table-cell h3{
+    font-size: 25px;
+    width:23%;
+    margin-left: 58px;
+}
+.color .coffe{
+    background-image: url("../imges/icon-1.png");
+    background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.color .projects{
+    background-image: url("../imges/icon-2.png");
+    background-repeat: no-repeat;
+	background-size: 100px auto;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.color .clock{
+    background-image: url("../imges/icon-3.png");
+    background-repeat: no-repeat;
+	background-size: 100px auto;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.color .true{
+    background-image: url("../imges/icon-4.png");
+    background-repeat: no-repeat;
+	background-size: 100px auto;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/*------portfolio------*/
+.width{
+    width: 100%;
+}
+/*------mobile------*/
+.mobile{
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:400 px;
+    width: 100%;
+    margin-bottom: 80px;  
+    
+}
+.mobile .content{
+    text-align: left;
+    width: 100%;
+}
+.left{
+    text-align: left;
+}
+/*------ourwork------*/
+.ourwork{
+    background-image: url("../imges/section-bg-19.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:550px;
+    margin-bottom: 80px;
+}
+.ourwork .content{
+    width: 58%;
+    padding-top: 56px;
+}
+.ourwork .flower{
+    font-size: 30px;
+}
+.ourwork .right{
+    display: inline-block;
+    padding-left: 10px;
+}
+.ourwork .circle{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid;
+    line-height: 30px;
+    text-align: center;
+}
+.ourwork .container .content .left{
+    padding-left: 48px;
+}
+.top{
+    margin-top: 45px;
+}
+.ourwork .circle2{
+    background-color: #ffeb00;
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px ;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+.sed2{
+    font-family: sxFont;
+    color: rgb(59, 59, 59);
+    font-size: 15PX;
+}
+.date{
+    text-align: left;
+}
+.container1 .date h4{
+    font-family: sxFont;
+    font-size: 10px;
+}
+.date2{
+    font-family: lrFont;
+    font-size: 10px;
+    color: rgb(122, 122, 122);
+}
+.padding{
+    padding-right: 15px;
+}
+.opacity{
+    opacity: 0.3;
+}
+.center{
+        font-size: 25px;
+        position: absolute;
+        text-align: center;
+}
+.overlay{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    bottom: 147px;
+    left: 176px;
+}
+.whattosay{
+    background-image: url("../imges/section-bg-5.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    margin-bottom: 80px;
+    background-attachment: fixed;
+}
+.email{
+    margin-left: 59px;
+}
+.map{
+    margin-left: 200px;
+}
+.phone{
+    margin-left: 45px;
+}
+.address{
+margin-left: 28px;
+}
+.loc{
+height:100px;
+position: relative;
+top: 400px;
+left: 668px;
+font-size: 35px;
+}
+/*------footer------*/
+.footer{
+    background-color: rgb(63, 62, 62);
+   color: #fff;
+}
+.footer .container{
+    width: 72%;
+    margin: 0 auto;
+}
+.footer .sed{
+    color: #fff;
+}
+.padding2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer .flower{
+    font-family: sxFont;
+    font-size: 20px;
+}
+.footer .table-cell{
+    width: 30.33%;
+    vertical-align: top;
+}
+.f-table-cell{
+    width: 3.33%;
+    display: table-cell;
+}
+.sed3{
+    font-family: sxFont;
+    font-size: 12PX;
+}
+.date{
+    font-family: fiFont;
+    font-size: 10px;
+}
+.black2{
+    background-color: black;
+    color: rgb(75, 75, 75);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*------fonts------*/
+@font-face {
+    font-family: FFont;
+    src: url(../fonts/aparajb.ttf);
+}
+@font-face {
+    font-family: sFont;
+    src: url(../fonts/aparajita_bold.ttf);
+}
+@font-face {
+    font-family: thFont;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: lrFont;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: foFont;
+    src: url(../fonts/Exodus-PersonalUse-Stencil.otf);
+}
+@font-face {
+    font-family: fiFont;
+    src: url(../fonts/KaushanScript-Regular.ttf);
+}
+@font-face {
+    font-family: sxFont;
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: seFont;
+    src: url(../fonts/raleway.light.ttf);
+}
